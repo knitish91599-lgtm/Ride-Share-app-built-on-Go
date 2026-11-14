@@ -1,13 +1,3 @@
-# "Microservices with Go" course project
-
-
-
-
-<div align="center">
-  <img src="./assets/images/thumbnail.png" alt="Thumbnail" width="600">
-</div>
-
-
 
 
 
@@ -33,31 +23,6 @@ You can either install via WSL (recommended) or using powershell (not covered, b
 
 4. Install Tilt from [Tilt's official website](https://tilt.dev/)
 
-5. Install Go on Windows using WSL:
-```bash
-# 1. Get the Go binary
-wget https://dl.google.com/go/go1.23.0.linux-amd64.tar.gz
-
-# 2. Extract the tarball
-sudo tar -xvf go1.23.0.linux-amd64.tar.gz
-
-# 3. Move the extracted folder to /usr/local
-sudo mv go /usr/local
-
-# 4. Add Go to PATH (following the steps from the video)
-cd ~
-explorer.exe .
-
-# Open .bashrc file and add following lines at the bottom and save the file.
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-
-# 5. Verify the installation
-go version
-```
-
-6. Make sure [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/) is installed.
 
 ## Run
 
